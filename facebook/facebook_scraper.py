@@ -1,12 +1,9 @@
 import json, sqlite3, time, datetime, requests, random
 
-APP_SECRET = "a9ed7cbddee855e15af2439c83ec62cd"
-APP_ID = "1632784396962207"
+APP_ID =  ## your Facebook app_id
+APP_SECRET = ## your Facebook app_secret
 access_token = APP_ID + "|" + APP_SECRET
 
-proxies = [{'http://54.218.105.164':'http://205.234.153.91:1026'},{'http://54.218.105.164':'http://205.234.153.91:1027'},
-		{'http://54.218.105.164':'http://205.234.153.91:1028'},{'http://54.218.105.164':'http://205.234.153.91:1029'},
-		{'http://54.218.105.164':'http://205.234.153.91:1030'}]
 
 headers = [{'User-Agent' : 'Mozilla/5.0 (Windows NT 10.0; WOW64)'},{'User-Agent' : 'AppleWebKit/537.36 (KHTML, like Gecko)'},
 			{'User-Agent' : 'Chrome/49.0.2623.110'},{'User-Agent' : 'Safari/537.36'}]
